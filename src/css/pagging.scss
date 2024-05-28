@@ -1,0 +1,18 @@
+.ant-pagination { 
+  .ant-pagination-item, .ant-pagination-prev, .ant-pagination-next {
+      border: 1px gray solid;
+    }
+  .ant-pagination-item-active {
+    border: none;
+    background-color: rgb(14 165 233);
+    a {
+      color: #fff;
+    }
+  }
+  .ant-pagination-disabled {
+    border: 1px rgb(199 199 199) solid;
+  }
+  
+}
+
+

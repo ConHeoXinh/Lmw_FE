@@ -1,0 +1,49 @@
+/* Font family Cardo */
+
+@font-face {
+  font-family: "Cardo";
+  src: local("Cardo"),
+    url(https://fonts.gstatic.com/s/cardo/v9/g4_K7nBNj-9X-p1g_99_mI3FYaG6.woff2)
+      format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Font weights */
+
+@font-face {
+  font-family: "Cardo";
+  src: local("Cardo Bold"),
+    url(https://fonts.gstatic.com/s/cardo/v9/g4_K7nBNj-9X-p1g_99_mI3FYaG6.woff2)
+      format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Font styles */
+
+@font-face {
+  font-family: "Cardo";
+  src: local("Cardo Italic"),
+    url(https://fonts.gstatic.com/s/cardo/v9/g4_K7nBNj-9X-p1g_99_mI3FYaG6.woff2)
+      format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Font weights and styles */
+
+@font-face {
+  font-family: "Cardo";
+  src: local("Cardo Bold Italic"),
+    url(https://fonts.gstatic.com/s/cardo/v9/g4_K7nBNj-9X-p1g_99_mI3FYaG6.woff2)
+      format("woff2");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Font family usage */
+
+.cardo {
+  font-family: "Cardo";
+}

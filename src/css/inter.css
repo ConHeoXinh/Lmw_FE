@@ -1,0 +1,43 @@
+/* Font family Inter */
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"),
+    url(https://fonts.gstatic.com/s/inter/v16/UlavoT_Eut65v6u93wIM.woff2)
+      format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Font weights */
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter Bold"),
+    url(https://fonts.gstatic.com/s/inter/v16/UlavoT_Eut65v6u93wIM.woff2)
+      format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Font styles */
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter Italic"),
+    url(https://fonts.gstatic.com/s/inter/v16/UlavoT_Eut65v6u93wIM.woff2)
+      format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Font weights and styles */
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter Bold Italic"),
+    url(https://fonts.gstatic.com/s/inter/v16/UlavoT_Eut65v6u93wIM.woff2)
+      format("woff2");
+  font-weight: 700;
+  font-style: italic;
+}
